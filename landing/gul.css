@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height:700px;
+    width: 100%;
+    background:linear-gradient(45deg ,pink,black);
+    text-align: center;
+}
+.navbar{
+    height: 50px;
+display: flex;
+justify-content: space-between;
+text-align: center;
+    padding-top: 10px;
+}
+.navf2 a:hover{
+    color:white;
+}
+.adiv{
+    height: fit-content;
+    width: fit-content;
+
+}
+.adiv:hover{
+    color: orange;
+    border: 2px solid  black;
+    border-radius: 2px ;
+    background-color: black;
+    transition:2s ease-in-out ;
+}
+.navf1{
+    margin-left: 10%;
+}
+.navf1 h1{
+    height: inherit;
+
+    font-size: 20px;
+    color: black;
+    font-size: 50px;
+}
+.navf2{
+    width:80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.navf2 .adiv a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.content{
+    position: absolute;
+    height: fit-content;
+    width: 600px;
+    top: 20%;
+    left: 30%;
+}
+span{
+    color:white;
+}
+.content h1{
+    font-size: 80px;
+}
+.content p{
+    font-size: 20px;
+    color: white;
+}
+.serv{
+    height: 150vh;
+    width: 100%;
+    border: 2px solid black;
+    background:linear-gradient(45deg ,pink,black);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  }
+  .ser{
+     width: 300px;
+     height:300px;
+     border: 2px solid pink;
+     color: white;
+     text-align: center;
+     border-radius: 10px;
+     margin: 30px;
+  }
+  .ser h1{
+      color: gold;
+  }
+  .serweoff{
+     position: absolute;
+     left:50%;
+      color: white;
+  }
+  .ser:hover{
+      box-shadow:  -10px -10px 10px rgb(211, 189, 24),10px 10px 10px rgb(211, 189, 24);
+      transition-duration: 1s;
+  }
+  .photo{
+      height:175px;
+      width:285px;
+      border-radius: 10px;
+      margin-top: 5px;
+  }
+  .btn2{
+      width: 100px;
+      background-color: orangered;
+      color: black;
+      border-radius: 1rem;
+      cursor: pointer;
+  }
+  .contect{
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(30deg gray,pink );
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.contect{
+    background-color: #262626;
+    color: white;
+}
